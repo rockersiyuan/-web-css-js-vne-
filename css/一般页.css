@@ -1,0 +1,302 @@
+.toolbar-layer, .toolbar-item {
+  background-image: url(../img/toolbar.png);
+  background-repeat: no-repeat;
+}
+.toolbar {
+  position: fixed;
+  right: 5px;
+  bottom: 20px;
+}
+
+.toolbar-item {
+  position: relative;
+  display: block;
+  width: 52px;
+  height: 52px;
+  margin-top: 1px;
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  -ms-transition: background-position 1s;
+  -o-transition: background-position 1s;
+  transition: background-position 1s;
+}
+.toolbar-item:hover .toolbar-layer {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.toolbar-item-weixin {
+  background-position: 0 -798px;
+}
+.toolbar-item-weixin:hover {
+  background-position: 0 -860px;
+}
+.toolbar-item-weixin .toolbar-layer {
+  height: 212px;
+  background-position: 0 0;
+}
+
+.toolbar-item-feedback {
+  background-position: 0 -426px;
+}
+.toolbar-item-feedback:hover {
+  background-position: 0 -488px;
+}
+
+.toolbar-item-app {
+  background-position: 0 -550px;
+}
+.toolbar-item-app:hover {
+  background-position: 0 -612px;
+}
+.toolbar-item-app .toolbar-layer {
+  height: 194px;
+  background-position: 0 -222px;
+}
+
+.toolbar-item-top {
+  background-position: 0 -674px;
+}
+.toolbar-item-top:hover {
+  background-position: 0 -736px;
+}
+
+.toolbar-layer {
+  position: absolute;
+  right: 46px;
+  bottom: -10px;
+  width: 172px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform-origin: 95% 95%;
+  -moz-transform-origin: 95% 95%;
+  -ms-transform-origin: 95% 95%;
+  -o-transform-origin: 95% 95%;
+  transform-origin: 95% 95%;
+  -webkit-transform: scale(0.01);
+  -moz-transform: scale(0.01);
+  -ms-transform: scale(0.01);
+  -o-transform: scale(0.01);
+  transform: scale(0.01);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+ul,li,body{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    outline-style:none;/*FF*/ 
+}
+.continer{
+	width: 1100px;
+	margin: auto;
+}
+.header{
+  width: 100%;
+  display: block;
+  height: 80px;
+  background-color:transparent; 
+  text-align: right;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding-right: 10px;
+  border-bottom: 2px solid #e4e4e4;
+  position: relative;
+}
+.header li{
+	display: inline-block;
+	color: #767676;
+	height:80px;
+	padding: 0 15px !important;
+	line-height: 80px;
+	transition: .3s;
+	border-bottom: 10px solid #FFFFFF;
+}
+.header li:hover{
+	border-bottom: 5px solid #484848;
+}
+.header li>a{
+	font-size: 18px;
+	color: #333;
+}
+a{
+    margin:auto;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color:#333;
+    text-decoration: none;
+}
+a:hover,a:focus{
+    text-decoration:underline;
+    outline-style:none;
+    }
+ul,li{
+  list-style: none;
+}
+.toplogo{
+	position: absolute;
+	top: 5px;
+	left: 6%;
+}
+.headtit1{
+  	width: 95%;
+  	position: relative;
+  	margin-top: 0px;
+  	height: 80px;
+  	background-color: #ffffff !important;
+  	border-bottom: 1px solid #e4e4e4 !important;
+  	padding-left: 16px;
+  	display: flex;
+  	align-items: center !important;
+  	text-align: right;
+  	z-index: 20;
+}
+
+.headtit1 button{
+  	font-size: 14px !important;
+  	line-height: 18px !important;
+  	letter-spacing: normal !important; 
+  	padding-top: 6px !important;
+  	padding-bottom: 6px !important;
+  	border-radius: 5px !important;
+  	cursor: pointer !important;
+  	display: inline-block !important;
+  	padding-left: 12px !important;
+  	padding-right: 12px !important;
+  	margin-left: 100px;
+  	position: relative !important;
+  	text-align: center !important;
+  	text-decoration: none !important;
+  	width: auto !important;
+  	height: 50px;
+  	background: #008489 !important;
+  	border: 2px solid #008489 !important;
+  	color: #ffffff !important;
+}
+.headtit1 button > div{
+  	font-size: 14px !important;
+  	line-height: 18px !important;
+  	letter-spacing: normal !important;
+}
+.lineshow{
+	width: 100%;
+	margin-top: 40px;
+	display: block;
+}
+.firstpicture,.afterpicture{
+	width: 31%;
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 3px 3px 10px #666;
+	cursor: pointer;
+}
+
+.imgbox{
+	border-radius: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	transition: .5px;
+}
+.imgbox img{
+	width: 100%;
+	display: block;
+	transition: 1s;
+}
+.text-under{
+	background-color: #333;
+	width: 639px;
+	height: 462px;
+	position: absolute;
+	top: -462px;
+	left: 0px;
+	filter: opacity(80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	transition: 0.5s ease;
+	padding-top: 11px;
+}
+.text-under span{
+	position: relative;
+	transition: .8s;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	word-wrap: break-word;
+}
+.text-under span p{
+	color: #fff;
+	position: relative;
+	text-align: left;
+	word-wrap: break-word;
+	margin-left: 15px;
+	display: block;
+}
+.tips p{
+	margin-left: 6px;
+}
+.afterpicture:hover .text-under{
+	top: 0px;
+}
+.firstpicture:hover .text-under{
+	top:0px;
+}
+.foot{
+  	padding: 35px 0;
+  	background-color: #ffffff !important;
+    border-top: 1px solid #EBEBEB !important;
+    color: #484848 !important;
+  	margin-top: 40px;
+}
+.footer{
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #EBEBEB;
+  padding-bottom: 30px;
+  margin-bottom: 20px
+}
+.footer dt{
+  	font-size: 14px !important;
+    font-weight: 800 !important;
+    line-height: 1.28571em !important;
+    color: rgb(72, 72, 72) !important; 
+    margin-bottom: 20px
+}
+.footer dl{
+	display: inline-block;
+	width:24%;
+	vertical-align:top;
+}
+.footer-nav dd > a{
+  color: #767676;
+  font-weight: 400;
+  font-size: 14px
+}
+.foot p{
+	text-align: center;
+}
+.moveword{
+	position: fixed;
+	left: 10px;
+	bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+}

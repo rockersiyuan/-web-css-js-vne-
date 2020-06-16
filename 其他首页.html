@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>其他精选</title>
+		<link rel="stylesheet" href="css/一般页.css">
+		<link rel="stylesheet" href="css/手风琴式轮播.css" />
+		<link rel="stylesheet" href="css/仿select搜索框.css">
+		<link rel="stylesheet" href="css/页面滚动字.css" />
+	</head>
+	<body onload="show()">
+		<div class="toolbar">
+			<a href="#" class="toolbar-item toolbar-item-weixin">
+				<span class="toolbar-layer"></span>
+			</a>
+			<a href="#" class="toolbar-item toolbar-item-feedback"></a>
+			<a href="#" class="toolbar-item toolbar-item-app">
+				<span class="toolbar-layer"></span>
+			</a>
+		</div>
+		<div class="header">
+				<ul>
+					<li><a href="首页.html">首页</a></li>
+					<li><a href="上海首页.html">上海精选</a></li>
+					<li><a href="深圳首页.html">深圳精选</a></li>
+					<li><a href="南京首页.html">南京精选</a></li>
+					<li><a href="广州首页.html">广州精选</a></li>
+					<li><a href="武汉首页.html">武汉精选</a></li>
+					<li><a href="成都首页.html">成都精选</a></li>	
+					<li><a href="其他首页.html">其他精选</a></li>	
+					<li><a href="公司简介.html">关于我们</a></li>
+				</ul>
+				<div class="toplogo">
+					<img src="img/德玛西亚logo.png" />
+				</div>			
+		</div>
+		<div class="headtit1">
+			<button>
+				<div id='date'></div>
+			</button>
+			<div class="headtit2"style="position: absolute;left: 50%;transform: translateX(-50%);font-weight: bold;color: #555">
+				<p style="text-align: center;">中国&更多精彩</p>
+				<p>China&More</p>
+			</div>
+			<div class="continer">
+				<div class="search">
+        		<custorm-select btn-value="搜索更多精选" v-bind:list="list1"></custorm-select>
+	    		</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="pic1 pic">
+				<div class="pic_num1 pic_num">
+				</div>
+				<p>生活不能少了欢乐</p>
+			</div>
+			<div class="pic2 pic">
+				<div class="pic_num2 pic_num"></div>
+			<p>没有欢乐就如同白粥</p>
+			</div>
+				
+			<div class="pic3 pic">
+				<div class="pic_num3 pic_num"></div>
+			<p>平淡无奇无波无浪</p>
+			</div>
+				
+			<div class="pic4 pic">
+				<div class="pic_num4 pic_num"></div>
+			<p>吃了旅行这颗糖吧</p>
+			</div>
+				
+			<div class="pic5 pic">
+				<div class="pic_num5 pic_num"></div>
+			<p>久甜不腻流连忘返</p>
+			</div>
+			
+			<div class="pic6 pic">
+				<div class="pic_num6 pic_num"></div>
+				<p>奔跑吧，能走多远就走多远</p>
+			</div>
+			
+		</div>
+
+		<div class="introduce" style="width: 1100px;margin: 30px auto;">
+			<span style="word-wrap: break-word;font-size: 18px;line-height: 30px;margin-top: 30px;">
+				中国旅游：中国的景观旅游资源相当丰富。独克宗花巷位于香格里拉独克宗古城北门，打造成香格里拉藏区城市旅游综合体和特色小镇。这些风景名胜区从不同的角度可以有不同的划分，以其主要景观的不同，大体上可分为如下八种类型：1.湖泊风景区（白洋淀、杭州西湖、南京玄武湖、武汉东湖、新疆天山天池、青海湖、丹江口水库) 2.山岳风景区（燕山、泰山、衡山、华山、紫金山、阿里山) 3.森林风景区(西双版纳、湖南张家界、河南宝天曼、四川卧龙、湖北神农架） 4.山水风景区(桂林漓江、长江三峡、武夷九曲溪） 5.海滨风景区(海南天涯海角、厦门、大连)</span>
+		</div>
+		<div class="lineshow">
+			<div class="continer">
+				<h1>选择我们——回馈给你最流连故事</h1>
+				<div class="firstpicture" onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页1.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>丹江口水库，位于汉江中上游</p>
+							<p>分布于湖北省丹江口市和河南省南阳市淅川县</p>
+							<p>水域横跨鄂、豫两省，是亚洲第一大人工淡水湖</p>
+							<p>也是国家南水北调中线工程水源地、</p>
+							<p>国家一级水源保护区、</p>
+							<p>中国重要的湿地保护区、国家级生态文明示范区</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">丹江口</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页2.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>中国道教圣地，又名太和山、谢罗山、参上山、</p>
+							<p>仙室山，古有“太岳”、“玄岳”、“大岳”之称</p>
+							<p>位于湖北省西北部十堰市丹江口市境内</p>
+							<p>东接闻名古城襄阳市，西靠车城十堰市 </p>
+							<p>南望原始森林神农架，北临高峡平湖丹江口</p>。
+							<p>明代，武当山被皇帝封为“大岳”、“治世玄岳”</p>
+							<p>被尊为“皇室家庙”。武当山以“四大名山皆拱揖</p>
+							<p>五方仙岳共朝宗”的“五岳之冠”地位闻名于世</p>
+	
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">武当山</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页3.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>苏州素有“园林之城”的美誉</p>
+							<p>境内私家园林始建于公元前6世纪</p>
+							<p>清末时城内外有园林170多处，现存50多处</p>
+							<p>1997年，苏州古典园林中的拙政园、留园、</p>
+							<p>网师园和环秀山庄被列入世界文化遗产名录</p>
+							<p>2000年沧浪亭、狮子林、耦园、艺圃和退思园作为</p>
+							<p>苏州古典园林的扩展项目也被列为世界文化遗产</p>
+				
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">苏州园林</p>
+					<p class="p2">票价：20元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页4.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>神农架风景区，是世界地质公园</p>
+							<p>国家AAAAA级旅游景区，国家地质公园</p>
+							<p>国家森林公园，国家湿地公园，国家自然保护区</p>
+							<p>中国最美十大森林公园，入选世界生物圈保护网</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">神龙架风景区</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页5.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>漓江，属珠江流域西江水系</p>
+							<p>为支流桂江上游河段的通称</p>
+							<p>位于广西壮族自治区东北部</p>
+							<p>传统意义上的漓江起点为桂江源头越城岭猫儿山</p>
+							<p>现代水文定义为兴安县溶江镇灵渠口</p>
+							<p>终点为平乐三江口</p>
+							<p>身心俱疲的时候，就去感一感这丝天工✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">漓江风景区</p>
+						<p class="p2">票价：50元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页6.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>阿里山共由十八座高山组成</p>
+							<p>属于玉山山脉的支脉</p>
+							<p>隔陈有兰溪与玉山主峰相望</p>
+							<p>群峰环绕、山峦叠翠、巨木参天</p>
+							<p>相传以前有一位邹族酋长阿巴里曾只身来此打猎</p>
+							<p>满载而归后常带族人来此</p>
+							<p>为感念他便以其名为此地</p>
+							
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">阿里山自然</p>
+					<p class="p2">票价：200元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页7.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>西湖有100多处公园景点，有“西湖十景”、</p>
+							<p>“新西湖十景”、“三评西湖十景”之说</p>
+							<p>有60多处国家、省、市级重点文物保护单位</p>
+							<p>和20多座博物馆，有断桥、雷峰塔、钱王祠、</p>
+							<p>净慈寺、苏小小墓等景点</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">杭州西湖</p>
+						<p class="p2">票价：90元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页8.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>西双版纳有中国唯一的热带雨林自然保护区</p>
+							<p>是国家级生态示范区、国家级风景名胜区、</p>
+							<p>联合国生物多样性保护圈成员</p>
+							<p>植物种类占全国的1/6，动物种类占全国的1/4</p>
+							<p>森林覆盖率80.8%，是中国第二大天然橡胶基地</p>
+							<p>大叶种茶的原生地、普洱茶的故乡</p>
+							<p>身心俱疲的时候，就去感一感这丝天工✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">西双版纳</p>
+						<p class="p2">票价：100元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/其他页9.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>莫高窟，俗称千佛洞，坐落在河西走廊西端的敦煌</p>
+							<p>它始建于十六国的前秦时期，历经十六国、北朝、</p>
+							<p>隋、唐、五代、西夏、元等历代的兴建</p>
+							<p>形成巨大的规模，有洞窟735个</p>
+							<p>壁画4.5万平方米、泥质彩塑2415尊</p>
+							<p>是世界上现存规模最大、内容最丰富的佛教艺术地</p>
+							
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">敦煌莫高窟</p>
+					<p class="p2">票价：70元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="foot">
+			<div class="continer">
+				<div class="footer">
+					<dl>
+						<dt>我们的媒体</dt>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚期刊</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚指南</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚广告</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚记者站</a></dd>
+					</dl>
+					<dl>
+						<dt>发现更多</dt>
+						<dd><a href="http://www.zuel.edu.cn/">要闻</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">政策</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">引擎</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">提示</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="http://www.zuel.edu.cn/">隐私与安全</a></dt>
+						<dd><a href="http://www.zuel.edu.cn/">安全证书</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">隐私保护协议</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">消费者保护协会</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">权益申诉</a></dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd><a href="http://www.zuel.edu.cn/">QQ</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微信</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微博</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">哔哩哔哩</a></dd>
+					</dl>
+				</div>
+				<p>20182113029-邵思源-信安1801</p>
+				<p>京ICP备88888888号 自嘲性网站备案信息公安备案号 66666666666京网文〔2020〕8888-666号</p>
+			</div>
+		</div>
+
+		<div class="moveword">
+			<span>欢</span>
+			<span>迎</span>
+			<span>光</span>
+			<span>临</span>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script>
+			function showtime(){
+				var date=new Date();
+				document.getElementById('date').innerText=date.toLocaleString();
+			}
+			function show(){
+				setInterval("showtime()",1000);
+			}
+
+		</script>
+		<script src="./js/vue.js"></script>
+		<script>
+	    //自定义组件
+		    Vue.component('custorm-select',{
+		        data:function () {
+		            return{
+		                selectShow:false,
+		                val:''
+		            }
+		        },
+		        props:['btnValue','list'],
+		        template:'<section class="warp">'+
+		            '<div class="searchIpt clearFix">'+
+		                    '<input type="text" class="keyWord" :value="val" @click="selectShow=!selectShow"/>'+
+		                    '<input type="button" :value="btnValue">'+
+		                    '<span></span>'+
+		                 '</div>'+
+		                 '<custorm-list v-show="selectShow" :list="list" v-on:receive="changeValueHandle"></custorm-list>'+
+		            '</div>'+
+		         '</section>',
+		        methods:{
+		            changeValueHandle:function (value) {
+		                this.val=value;
+		            }
+		        }
+		    }),
+		        Vue.component('custorm-list',{
+		            props:["list"],
+		            template:'<ul class="list">'+
+		                '<li v-for="item in list" @click="selectValueHandle(item)">{{item}}</li>'+
+		            '</ul>',
+		            methods:{
+		                selectValueHandle:function (item){
+		                    this.$emit('receive',item);
+		                }
+		            }
+		        })
+		    new Vue({
+		        el:'.continer',
+		        data:{
+		            list1:["迪士尼乐园","城隍庙景区","东方明珠","上海市野生动物园","上海市外滩景地"]
+		        }
+		    })
+	</script>
+		<script>
+		$(function(){
+			$("body").click(function(e){
+				// 创建div父元素
+				var parentDiv = $("<div></div>");
+				// 设置属性
+				parentDiv.css({
+					"width":"20px",
+					"height":"20px",
+					"position":"absolute",
+					"z-index":"10000"
+				});
+				// 创建一个div容器元素
+				var conDiv = $("<div></div>");
+				conDiv.css({
+					"width":"100%",
+					"height":"100%",
+					"position":"relative"
+				});
+				// 将容器元素添加到父元素中
+				parentDiv.append(conDiv);
+				// 创建子元素
+				var childDiv = conDiv.append("<div></div><div></div><div></div>");
+				var divs = conDiv.children();
+				// 设置颜色随机
+				var color = "rgb("+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)+")";
+				// 设置子元素属性
+				$(divs[0]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%"
+				});
+				$(divs[1]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%",
+					"position":"absolute",
+					"top":"0",
+					"right":"0"
+				});
+				$(divs[2]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"position":"absolute",
+					"top":"20%",
+					"left":"20%",
+					"transform":"rotate(45deg)",
+					"-ms-transform":"rotate(45deg)",
+					"-webkit-transform":"rotate(45deg)"
+				});
+				// 通过事件对象获取鼠标坐标
+				var x = e.pageX;
+				var y = e.pageY;
+				// 修改div父元素位置
+				parentDiv.css({"left":x+"px","top":y+"px"});
+				// 添加到body中
+				$("body").append(parentDiv);
+				// 2秒后消失
+				parentDiv.animate({
+					"width":"25px",
+					"height":"25px",
+					"top":(y-200)+"px",
+					"opacity":0
+				},2000,function(){
+					parentDiv.remove();
+				});
+			});
+		});
+	</script>
+		<script type="text/javascript" src="js/swiper_2.js"></script>
+	</body>
+</html>
+

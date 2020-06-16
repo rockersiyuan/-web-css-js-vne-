@@ -1,0 +1,132 @@
+/* wrap */
+.wrap {
+    margin: 10px auto;
+    width: 1134px;
+    height: 437px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pic {
+    width: 679px;
+    height: 437px;
+    cursor: pointer;
+}
+
+.pic1 {
+    background: url('../img/轮播图2.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.pic p{
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.pic_num1 {
+    width: 70px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 17px;
+    background: url('../img/pic_num.jpg');
+    background-position: 0 0;
+    display: none;
+}
+
+.pic2 {
+    background: url('../img/武汉页2.jpg');
+    position: absolute;
+    top: 0;
+    left: 679px;
+    z-index: 3;
+}
+
+.pic_num2 {
+    width: 70px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 17px;
+    background: url('../img/pic_num.jpg');
+    background-position: -69px 0;
+}
+
+.pic3 {
+    background: url('../img/武汉页4.jpg');
+    position: absolute;
+    top: 0;
+    left: 770px;
+    z-index: 5;
+}
+
+.pic_num3 {
+    width: 70px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 17px;
+    background: url('../img/pic_num.jpg');
+    background-position: -138px 0;
+}
+
+.pic4 {
+    background: url('../img/轮播图3.jpg');
+    position: absolute;
+    top: 0;
+    left: 861px;
+    z-index: 7;
+}
+
+.pic_num4 {
+    width: 70px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 17px;
+    background: url('../img/pic_num.jpg');
+    background-position: -207px 0;
+}
+
+.pic5 {
+    background: url('../img/武汉页15.jpg');
+    position: absolute;
+    top: 0;
+    left: 952px;
+    z-index: 9;
+}
+
+.pic_num5 {
+    width: 70px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    background: url('../img/pic_num.jpg');
+    background-position: -276px 0;
+}
+
+.pic6 {
+    background: url('../img/武汉页17.jpg');
+    position: absolute;
+    top: 0;
+    left: 1043px;
+    z-index: 11;
+}
+
+.pic_num6 {
+    width: 70px;
+    height: 79px;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    background: url('../images/pic_num.jpg');
+    background-position: -345px 0;
+}

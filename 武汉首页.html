@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>武汉精选</title>
+		<link rel="stylesheet" href="css/一般页.css">
+		<link rel="stylesheet" href="css/手风琴式轮播.css" />
+		<link rel="stylesheet" href="css/仿select搜索框.css">
+		<link rel="stylesheet" href="css/页面滚动字.css" />
+	</head>
+	<body onload="show()">
+		<div class="toolbar">
+			<a href="#" class="toolbar-item toolbar-item-weixin">
+				<span class="toolbar-layer"></span>
+			</a>
+			<a href="#" class="toolbar-item toolbar-item-feedback"></a>
+			<a href="#" class="toolbar-item toolbar-item-app">
+				<span class="toolbar-layer"></span>
+			</a>
+		</div>
+		<div class="header">
+				<ul>
+					<li><a href="首页.html">首页</a></li>
+					<li><a href="上海首页.html">上海精选</a></li>
+					<li><a href="深圳首页.html">深圳精选</a></li>
+					<li><a href="南京首页.html">南京精选</a></li>
+					<li><a href="广州首页.html">广州精选</a></li>
+					<li><a href="武汉首页.html">武汉精选</a></li>
+					<li><a href="成都首页.html">成都精选</a></li>	
+					<li><a href="其他首页.html">其他精选</a></li>	
+					<li><a href="公司简介.html">关于我们</a></li>
+				</ul>
+				<div class="toplogo">
+					<img src="img/德玛西亚logo.png" />
+				</div>			
+		</div>
+		<div class="headtit1">
+			<button>
+				<div id='date'></div>
+			</button>
+			<div class="headtit2"style="position: absolute;left: 50%;transform: translateX(-50%);font-weight: bold;color: #555">
+				<p style="text-align: center;">中国&武汉</p>
+				<p>China&WuHan</p>
+			</div>
+			<div class="continer">
+				<div class="search">
+        		<custorm-select btn-value="搜索更多精选" v-bind:list="list1"></custorm-select>
+	    		</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="pic1 pic">
+				<div class="pic_num1 pic_num">
+				</div>
+				<p>生活不能少了欢乐</p>
+			</div>
+			<div class="pic2 pic">
+				<div class="pic_num2 pic_num"></div>
+			<p>没有欢乐就如同白粥</p>
+			</div>
+				
+			<div class="pic3 pic">
+				<div class="pic_num3 pic_num"></div>
+			<p>平淡无奇无波无浪</p>
+			</div>
+				
+			<div class="pic4 pic">
+				<div class="pic_num4 pic_num"></div>
+			<p>吃了旅行这颗糖吧</p>
+			</div>
+				
+			<div class="pic5 pic">
+				<div class="pic_num5 pic_num"></div>
+			<p>久甜不腻流连忘返</p>
+			</div>
+			
+			<div class="pic6 pic">
+				<div class="pic_num6 pic_num"></div>
+				<p>奔跑吧，能走多远就走多远</p>
+			</div>
+			
+		</div>
+
+		<div class="introduce" style="width: 1100px;margin: 30px auto;">
+			<span style="word-wrap: break-word;font-size: 18px;line-height: 30px;margin-top: 30px;">武汉市：武汉，简称“汉”，别称江城，是湖北省省会，中部六省唯一的副省级市，特大城市，国务院批复确定的中国中部地区的中心城市，全国重要的工业基地、科教基地和综合交通枢纽  。截至2019年末，全市下辖13个区，总面积8569.15平方千米，建成区面积812.39平方千米，常住人口1121.2万人，地区生产总值1.62万亿元。  
+武汉地处江汉平原东部、长江中游，长江及其最大支流汉江在城中交汇，形成武汉三镇隔江鼎立的格局，市内江河纵横、湖港交织，水域面积占全市总面积四分之一。作为中国经济地理中心，武汉素有“九省通衢”之称，是中国内陆最大的水陆空交通枢纽和长江中游航运中心，其高铁网辐射大半个中国，是华中地区唯一可直航全球五大洲的城市。
+武汉是联勤保障部队机关驻地、长江经济带核心城市、中部崛起战略支点、全面创新改革试验区，也是全国三大智力密集区之一，中国光谷致力打造有全球影响力的创新创业中心。根据国家发改委要求，武汉正加快建成以全国经济中心、高水平科技创新中心、商贸物流中心和国际交往中心四大功能为支撑的国家中心城市。 
+武汉是国家历史文化名城、楚文化的重要发祥地，境内盘龙城遗址有3500年历史。春秋战国以来，武汉一直是中国南方的军事和商业重镇，明清时期成为楚中第一繁盛处、天下四聚之一。清末汉口开埠和洋务运动开启武汉现代化进程，使其成为近代中国重要的经济中心，被誉为“东方芝加哥”。武汉是辛亥革命首义之地，近代史上数度成为全国政治、军事、文化中心。</span>
+		</div>
+		<div class="lineshow">
+			<div class="continer">
+				<h1>选择我们——回馈给你最流连故事</h1>
+				<div class="firstpicture" onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页3.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>山下有湖，水中有山。</p>
+							<p>登高峰而望清涟，踏白浪览群山</p>
+							<p>视角不同，可体味到不同的山水之精妙情趣。</p>
+							<p>湿润的气候和平原湖面山陵相间的地貌环境</p>
+							<p>孕育出东湖丰富的植物资源</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">东湖</p>
+						<p class="p2">票价：0元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页5.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>江南三大名楼之一，国家旅游胜地四十佳。</p>
+							<p>素有“天下江山第一楼”之美誉。</p>
+							<p>冲决巴山群峰，接纳潇湘云水，</p>
+							<p>浩荡长江在三楚腹地与其最长支流汉水交汇</p>
+							<p>造就了武汉隔两江而三镇互峙的伟姿</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">黄鹤楼</p>
+						<p class="p2">票价：30元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页11 (1).jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>木兰故里一一武汉市黄陂区</p>
+							<p>北枕巍巍大别山，南瀕浩浩长江水</p>
+							<p>国土面积2261平方公里，人口113万</p>
+							<p>是武汉市版图最大、人口最多、生态最好的新城区</p>
+							
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">木兰故里</p>
+					<p class="p2">票价：200元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页111.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>归元禅寺创建于清顺治十五年(1658)</p>
+							<p>归元寺之名取佛经“归元性不二</p>
+							<p>方便有多门”之语意。</p>
+							<p>是湖北省重点文物保护单位</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">归元寺</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页222.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>武昌首义文化旅游区是国家AAAA级旅游景区</p>
+							<p>是湖北省在辛亥革命100周年之际打造的文化项目</p>
+							<p>也是武汉设施最为完备的免费景区之一</p>
+							<p>是一个设施完备的综合性旅游区</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">武昌首义文化旅游区</p>
+						<p class="p2">票价：10元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页333.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>湖北省博物馆筹建于1953年</p>
+							<p>是全国八家中央地方共建的国家级博物馆之一</p>
+							<p>是湖北省唯一的省级综合性博物馆</p>
+							<p>也是全省最重要的文物收藏、研究和展示机构</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">湖北省博物馆</p>
+					<p class="p2">票价：20元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页444.jpeg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>现为国家AAAA级景区</p>
+							<p>南濒长江，西临盘龙城，北望木兰山</p>
+							<p>具备科技示范、农事体验、旅游观光功能</p>
+							<p>是现时代的古农文化地</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">武汉农耕年华风情园</p>
+						<p class="p2">票价：30元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页555.jpeg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>武大校内樱花约1000株</p>
+							<p>以日本樱、山樱、垂枝大叶早和红花高盆为主</p>
+							<p>从二十八株国耻之花，到千株人文之花</p>
+							<p>不仅见证了中日两国的关系变化</p>
+							<p>更承载了武大的历史底蕴。</p>
+
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">武大樱花</p>
+						<p class="p2">票价：10元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/武汉页666.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>武汉欢乐谷拥有亚洲首座双龙木质过山车</p>
+							<p>以及国内最大的人工造浪沙滩</p>
+							<p>最大室内家庭数字娱乐中心</p>
+							<p>武汉最大的专业剧场等50多项游乐设施。</p>
+							<p>是一张响当当的武汉市娱乐名片</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">欢乐谷乐园</p>
+					<p class="p2">票价：200元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="foot">
+			<div class="continer">
+				<div class="footer">
+					<dl>
+						<dt>我们的媒体</dt>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚期刊</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚指南</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚广告</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚记者站</a></dd>
+					</dl>
+					<dl>
+						<dt>发现更多</dt>
+						<dd><a href="http://www.zuel.edu.cn/">要闻</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">政策</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">引擎</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">提示</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="http://www.zuel.edu.cn/">隐私与安全</a></dt>
+						<dd><a href="http://www.zuel.edu.cn/">安全证书</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">隐私保护协议</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">消费者保护协会</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">权益申诉</a></dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd><a href="http://www.zuel.edu.cn/">QQ</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微信</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微博</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">哔哩哔哩</a></dd>
+					</dl>
+				</div>
+				<p>20182113029-邵思源-信安1801</p>
+				<p>京ICP备88888888号 自嘲性网站备案信息公安备案号 66666666666京网文〔2020〕8888-666号</p>
+			</div>
+		</div>
+
+		<div class="moveword">
+			<span>欢</span>
+			<span>迎</span>
+			<span>光</span>
+			<span>临</span>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script>
+			function showtime(){
+				var date=new Date();
+				document.getElementById('date').innerText=date.toLocaleString();
+			}
+			function show(){
+				setInterval("showtime()",1000);
+			}
+
+		</script>
+		<script src="./js/vue.js"></script>
+		<script>
+	    //自定义组件
+		    Vue.component('custorm-select',{
+		        data:function () {
+		            return{
+		                selectShow:false,
+		                val:''
+		            }
+		        },
+		        props:['btnValue','list'],
+		        template:'<section class="warp">'+
+		            '<div class="searchIpt clearFix">'+
+		                    '<input type="text" class="keyWord" :value="val" @click="selectShow=!selectShow"/>'+
+		                    '<input type="button" :value="btnValue">'+
+		                    '<span></span>'+
+		                 '</div>'+
+		                 '<custorm-list v-show="selectShow" :list="list" v-on:receive="changeValueHandle"></custorm-list>'+
+		            '</div>'+
+		         '</section>',
+		        methods:{
+		            changeValueHandle:function (value) {
+		                this.val=value;
+		            }
+		        }
+		    }),
+		        Vue.component('custorm-list',{
+		            props:["list"],
+		            template:'<ul class="list">'+
+		                '<li v-for="item in list" @click="selectValueHandle(item)">{{item}}</li>'+
+		            '</ul>',
+		            methods:{
+		                selectValueHandle:function (item){
+		                    this.$emit('receive',item);
+		                }
+		            }
+		        })
+		    new Vue({
+		        el:'.continer',
+		        data:{
+		            list1:["迪士尼乐园","城隍庙景区","东方明珠","上海市野生动物园","上海市外滩景地"]
+		        }
+		    })
+	</script>
+		<script>
+		$(function(){
+			$("body").click(function(e){
+				// 创建div父元素
+				var parentDiv = $("<div></div>");
+				// 设置属性
+				parentDiv.css({
+					"width":"20px",
+					"height":"20px",
+					"position":"absolute",
+					"z-index":"10000"
+				});
+				// 创建一个div容器元素
+				var conDiv = $("<div></div>");
+				conDiv.css({
+					"width":"100%",
+					"height":"100%",
+					"position":"relative"
+				});
+				// 将容器元素添加到父元素中
+				parentDiv.append(conDiv);
+				// 创建子元素
+				var childDiv = conDiv.append("<div></div><div></div><div></div>");
+				var divs = conDiv.children();
+				// 设置颜色随机
+				var color = "rgb("+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)+")";
+				// 设置子元素属性
+				$(divs[0]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%"
+				});
+				$(divs[1]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%",
+					"position":"absolute",
+					"top":"0",
+					"right":"0"
+				});
+				$(divs[2]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"position":"absolute",
+					"top":"20%",
+					"left":"20%",
+					"transform":"rotate(45deg)",
+					"-ms-transform":"rotate(45deg)",
+					"-webkit-transform":"rotate(45deg)"
+				});
+				// 通过事件对象获取鼠标坐标
+				var x = e.pageX;
+				var y = e.pageY;
+				// 修改div父元素位置
+				parentDiv.css({"left":x+"px","top":y+"px"});
+				// 添加到body中
+				$("body").append(parentDiv);
+				// 2秒后消失
+				parentDiv.animate({
+					"width":"25px",
+					"height":"25px",
+					"top":(y-200)+"px",
+					"opacity":0
+				},2000,function(){
+					parentDiv.remove();
+				});
+			});
+		});
+	</script>
+		<script type="text/javascript" src="js/swiper_2.js"></script>
+	</body>
+</html>
+

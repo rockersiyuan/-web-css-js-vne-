@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>广州精选</title>
+		<link rel="stylesheet" href="css/一般页.css">
+		<link rel="stylesheet" href="css/手风琴式轮播.css" />
+		<link rel="stylesheet" href="css/仿select搜索框.css">
+		<link rel="stylesheet" href="css/页面滚动字.css" />
+	</head>
+	<body onload="show()">
+		<div class="toolbar">
+			<a href="#" class="toolbar-item toolbar-item-weixin">
+				<span class="toolbar-layer"></span>
+			</a>
+			<a href="#" class="toolbar-item toolbar-item-feedback"></a>
+			<a href="#" class="toolbar-item toolbar-item-app">
+				<span class="toolbar-layer"></span>
+			</a>
+		</div>
+		<div class="header">
+				<ul>
+					<li><a href="首页.html">首页</a></li>
+					<li><a href="上海首页.html">上海精选</a></li>
+					<li><a href="深圳首页.html">深圳精选</a></li>
+					<li><a href="南京首页.html">南京精选</a></li>
+					<li><a href="广州首页.html">广州精选</a></li>
+					<li><a href="武汉首页.html">武汉精选</a></li>
+					<li><a href="成都首页.html">成都精选</a></li>	
+					<li><a href="其他首页.html">其他精选</a></li>	
+					<li><a href="公司简介.html">关于我们</a></li>
+				</ul>
+				<div class="toplogo">
+					<img src="img/德玛西亚logo.png" />
+				</div>			
+		</div>
+		<div class="headtit1">
+			<button>
+				<div id='date'></div>
+			</button>
+			<div class="headtit2"style="position: absolute;left: 50%;transform: translateX(-50%);font-weight: bold;color: #555">
+				<p style="text-align: center;">中国&广州</p>
+				<p>China&GuangZhou</p>
+			</div>
+			<div class="continer">
+				<div class="search">
+        		<custorm-select btn-value="搜索更多精选" v-bind:list="list1"></custorm-select>
+	    		</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="pic1 pic">
+				<div class="pic_num1 pic_num">
+				</div>
+				<p>生活不能少了欢乐</p>
+			</div>
+			<div class="pic2 pic">
+				<div class="pic_num2 pic_num"></div>
+			<p>没有欢乐就如同白粥</p>
+			</div>
+				
+			<div class="pic3 pic">
+				<div class="pic_num3 pic_num"></div>
+			<p>平淡无奇无波无浪</p>
+			</div>
+				
+			<div class="pic4 pic">
+				<div class="pic_num4 pic_num"></div>
+			<p>吃了旅行这颗糖吧</p>
+			</div>
+				
+			<div class="pic5 pic">
+				<div class="pic_num5 pic_num"></div>
+			<p>久甜不腻流连忘返</p>
+			</div>
+			
+			<div class="pic6 pic">
+				<div class="pic_num6 pic_num"></div>
+				<p>奔跑吧，能走多远就走多远</p>
+			</div>
+			
+		</div>
+
+		<div class="introduce" style="width: 1100px;margin: 30px auto;">
+			<span style="word-wrap: break-word;font-size: 18px;line-height: 30px;margin-top: 30px;">广州市：广州，简称“穗”，别称羊城、花城，是广东省省会、副省级市、国家中心城市、超大城市，国务院批复确定的中国重要的中心城市、国际商贸中心和综合交通枢纽。截至2018年，全市下辖11个区，总面积7434平方千米，建成区面积1249.11平方千米，常住人口1530.59万人，城镇化率86.46%。 
+广州地处中国南部、珠江下游、濒临南海，是中国南部战区司令部驻地 ，国家物流枢纽，国家综合性门户城市，首批沿海开放城市，是中国通往世界的南大门，粤港澳大湾区、泛珠江三角洲经济区的中心城市以及一带一路的枢纽城市。
+广州是首批国家历史文化名城，广府文化的发祥地，从秦朝开始一直是郡治、州治、府治的所在地，华南地区的政治、军事、经济、文化和科教中心。从公元三世纪起成为海上丝绸之路的主港，唐宋时成为中国第一大港，是世界著名的东方港市，明清时是中国唯一的对外贸易大港，也是世界唯一两千多年长盛不衰的大港。</span>
+		</div>
+		<div class="lineshow">
+			<div class="continer">
+				<h1>选择我们——回馈给你最流连故事</h1>
+				<div class="firstpicture" onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页1.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>广州的新城市中心</p>
+							<p>又称珠江新城中央商务区，是现代广州的象征</p>
+							<p>珠江新城和北京商务中心区、</p>
+							<p>上海陆家嘴金融贸易区</p>
+							<p>是中央承认的三个国家级中央商务区</p>
+
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">珠江新城</p>
+						<p class="p2">票价：10元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页2.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>珠江长堤位于广州市珠江北岸呈东西走向</p>
+							<p>东起北京南路、西接人民南路，长约2公里</p>
+							<p>清朝初期是珠江河道</p>
+							<p>后因珠江沿岸淤积加剧河滩发育
+							</p><p>至清朝末年形成陆地。</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">珠江长堤</p>
+						<p class="p2">票价：0元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页3.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>这片建筑包括了各种不同时期不同特色的建筑</p>
+							<p>有清代较典型的正间和左右偏间的青砖石脚高</p>
+							<p>檐深宅西关大屋如逢源大街8号</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">西关古庙</p>
+					<p class="p2">票价：10元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页4.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>上下九步行街是上九路、下九路、</p>
+							<p>第十甫路步行街的合称</p>
+							<p>上下九是旧城区最繁华的地段之一</p>
+							<p>主干道旧建筑以骑楼为主，整条街风格独特</p>
+							<p>街上布满各中、高级百货公司、食肆等</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">上下九街</p>
+						<p class="p2">票价：10元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页5.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>2010年广州亚运会开幕式的举办地</p>
+							<p>至今依然保留有4个大屏幕和座位席</p>
+							<p>距离二沙岛、广州大桥、猎德大桥、</p>
+							<p>海珠岛、广州塔都很近</p>
+							<p>是珠江新城核心区轴线的端点</p>
+							<p>边灯火璀璨,在这边观赏小蛮腰灯光秀</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">海心沙公园</p>
+						<p class="p2">票价：10元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页6.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>白云山是南粤名山之一</p>
+							<p>被称为羊城第一秀、南越第一山</p>
+							<p>由30多座山峰组成，登高可俯览全市</p>
+							<p>遥望珠江，是知名的踏青胜地</p>
+ 							<p>每当雨后天晴或暮春时节</p>
+ 							<p>山间白云缭绕，白云山名由此而来。</p>
+	
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">白龙山</p>
+					<p class="p2">票价：200元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页7.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>广州塔是广州的地标，塔高600米</p>
+							<p>为国内第一高塔，可以俯瞰广州全景</p>
+							<p>其头尾相当腰身玲珑细长，又有“小蛮腰”之称</p>
+							<p>到晚上会亮灯，即使不游塔，也可来此拍摄外观</p>
+
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">广州塔</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页8.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>原称陈氏书院，建于清光绪十四年</p>
+							<p>是广东现存规模最大、保存最完整、</p>
+							<p>装饰最精美的中国清代宗祠建筑。</p>
+							<p>身心俱疲的时候，就去感一感这丝天工✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">陈家祠</p>
+						<p class="p2">票价：30元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/广州页9.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>地处广州市中心</p>
+							<p>是历史上最早建立广州城的位置之所在</p>
+							<p>见证了广州城的历史</p>
+							<p>可以说是北京路步行街的“镇街之宝”</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">百年北京路</p>
+					<p class="p2">票价：0元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="foot">
+			<div class="continer">
+				<div class="footer">
+					<dl>
+						<dt>我们的媒体</dt>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚期刊</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚指南</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚广告</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚记者站</a></dd>
+					</dl>
+					<dl>
+						<dt>发现更多</dt>
+						<dd><a href="http://www.zuel.edu.cn/">要闻</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">政策</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">引擎</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">提示</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="http://www.zuel.edu.cn/">隐私与安全</a></dt>
+						<dd><a href="http://www.zuel.edu.cn/">安全证书</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">隐私保护协议</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">消费者保护协会</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">权益申诉</a></dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd><a href="http://www.zuel.edu.cn/">QQ</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微信</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微博</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">哔哩哔哩</a></dd>
+					</dl>
+				</div>
+				<p>20182113029-邵思源-信安1801</p>
+				<p>京ICP备88888888号 自嘲性网站备案信息公安备案号 66666666666京网文〔2020〕8888-666号</p>
+			</div>
+		</div>
+
+		<div class="moveword">
+			<span>欢</span>
+			<span>迎</span>
+			<span>光</span>
+			<span>临</span>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script>
+			function showtime(){
+				var date=new Date();
+				document.getElementById('date').innerText=date.toLocaleString();
+			}
+			function show(){
+				setInterval("showtime()",1000);
+			}
+
+		</script>
+		<script src="./js/vue.js"></script>
+		<script>
+	    //自定义组件
+		    Vue.component('custorm-select',{
+		        data:function () {
+		            return{
+		                selectShow:false,
+		                val:''
+		            }
+		        },
+		        props:['btnValue','list'],
+		        template:'<section class="warp">'+
+		            '<div class="searchIpt clearFix">'+
+		                    '<input type="text" class="keyWord" :value="val" @click="selectShow=!selectShow"/>'+
+		                    '<input type="button" :value="btnValue">'+
+		                    '<span></span>'+
+		                 '</div>'+
+		                 '<custorm-list v-show="selectShow" :list="list" v-on:receive="changeValueHandle"></custorm-list>'+
+		            '</div>'+
+		         '</section>',
+		        methods:{
+		            changeValueHandle:function (value) {
+		                this.val=value;
+		            }
+		        }
+		    }),
+		        Vue.component('custorm-list',{
+		            props:["list"],
+		            template:'<ul class="list">'+
+		                '<li v-for="item in list" @click="selectValueHandle(item)">{{item}}</li>'+
+		            '</ul>',
+		            methods:{
+		                selectValueHandle:function (item){
+		                    this.$emit('receive',item);
+		                }
+		            }
+		        })
+		    new Vue({
+		        el:'.continer',
+		        data:{
+		            list1:["迪士尼乐园","城隍庙景区","东方明珠","上海市野生动物园","上海市外滩景地"]
+		        }
+		    })
+	</script>
+		<script>
+		$(function(){
+			$("body").click(function(e){
+				// 创建div父元素
+				var parentDiv = $("<div></div>");
+				// 设置属性
+				parentDiv.css({
+					"width":"20px",
+					"height":"20px",
+					"position":"absolute",
+					"z-index":"10000"
+				});
+				// 创建一个div容器元素
+				var conDiv = $("<div></div>");
+				conDiv.css({
+					"width":"100%",
+					"height":"100%",
+					"position":"relative"
+				});
+				// 将容器元素添加到父元素中
+				parentDiv.append(conDiv);
+				// 创建子元素
+				var childDiv = conDiv.append("<div></div><div></div><div></div>");
+				var divs = conDiv.children();
+				// 设置颜色随机
+				var color = "rgb("+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)+")";
+				// 设置子元素属性
+				$(divs[0]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%"
+				});
+				$(divs[1]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%",
+					"position":"absolute",
+					"top":"0",
+					"right":"0"
+				});
+				$(divs[2]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"position":"absolute",
+					"top":"20%",
+					"left":"20%",
+					"transform":"rotate(45deg)",
+					"-ms-transform":"rotate(45deg)",
+					"-webkit-transform":"rotate(45deg)"
+				});
+				// 通过事件对象获取鼠标坐标
+				var x = e.pageX;
+				var y = e.pageY;
+				// 修改div父元素位置
+				parentDiv.css({"left":x+"px","top":y+"px"});
+				// 添加到body中
+				$("body").append(parentDiv);
+				// 2秒后消失
+				parentDiv.animate({
+					"width":"25px",
+					"height":"25px",
+					"top":(y-200)+"px",
+					"opacity":0
+				},2000,function(){
+					parentDiv.remove();
+				});
+			});
+		});
+	</script>
+		<script type="text/javascript" src="js/swiper_2.js"></script>
+	</body>
+</html>

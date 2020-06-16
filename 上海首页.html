@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>上海精选</title>
+		<link rel="stylesheet" href="css/一般页.css">
+		<link rel="stylesheet" href="css/手风琴式轮播.css" />
+		<link rel="stylesheet" href="css/仿select搜索框.css">
+		<link rel="stylesheet" href="css/页面滚动字.css" />
+	</head>
+	<body onload="show()">
+		<div class="toolbar">
+			<a href="#" class="toolbar-item toolbar-item-weixin">
+				<span class="toolbar-layer"></span>
+			</a>
+			<a href="#" class="toolbar-item toolbar-item-feedback"></a>
+			<a href="#" class="toolbar-item toolbar-item-app">
+				<span class="toolbar-layer"></span>
+			</a>
+		</div>
+		<div class="header">
+				<ul>
+					<li><a href="首页.html">首页</a></li>
+					<li><a href="上海首页.html">上海精选</a></li>
+					<li><a href="深圳首页.html">深圳精选</a></li>
+					<li><a href="南京首页.html">南京精选</a></li>
+					<li><a href="广州首页.html">广州精选</a></li>
+					<li><a href="武汉首页.html">武汉精选</a></li>
+					<li><a href="成都首页.html">成都精选</a></li>	
+					<li><a href="其他首页.html">其他精选</a></li>	
+					<li><a href="公司简介.html">关于我们</a></li>
+				</ul>
+				<div class="toplogo">
+				<img src="img/德玛西亚logo.png" />
+				</div>			
+		</div>
+		<div class="headtit1">
+			<button>
+				<div id='date'></div>
+			</button>
+			<div class="headtit2"style="position: absolute;left: 50%;transform: translateX(-50%);font-weight: bold;color: #555">
+				<p style="text-align: center;">中国&上海</p>
+				<p>China&ShangHai</p>
+			</div>
+			<div class="continer">
+				<div class="search">
+        		<custorm-select btn-value="搜索更多精选" v-bind:list="list1"></custorm-select>
+	    		</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="pic1 pic">
+				<div class="pic_num1 pic_num">
+				</div>
+				<p>生活不能少了欢乐</p>
+			</div>
+			<div class="pic2 pic">
+				<div class="pic_num2 pic_num"></div>
+			<p>没有欢乐就如同白粥</p>
+			</div>
+				
+			<div class="pic3 pic">
+				<div class="pic_num3 pic_num"></div>
+			<p>平淡无奇无波无浪</p>
+			</div>
+				
+			<div class="pic4 pic">
+				<div class="pic_num4 pic_num"></div>
+			<p>吃了旅行这颗糖吧</p>
+			</div>
+				
+			<div class="pic5 pic">
+				<div class="pic_num5 pic_num"></div>
+			<p>久甜不腻流连忘返</p>
+			</div>
+			
+			<div class="pic6 pic">
+				<div class="pic_num6 pic_num"></div>
+				<p>奔跑吧，能走多远就走多远</p>
+			</div>
+			
+		</div>
+
+		<div class="introduce" style="width: 1100px;margin: 30px auto;">
+			<span style="word-wrap: break-word;font-size: 18px;line-height: 30px;margin-top: 30px;">
+				上海市：上海，简称“沪”，是中华人民共和国省级行政区、直辖市、国家中心城市、超大城市，中国国际经济、金融、贸易、航运、科技创新中心，国家物流枢纽 。全市下辖16个区，总面积6340.5平方千米，2019年常住人口2428.14万人，户籍常住人口1450.43万人，外来常住人口977.71万人。 
+上海地处中国东部、长江入海口、东临东中国海，北、西与江苏、浙江两省相接，界于东经120°52′-122°12′，北纬30°40′-31°53′之间。战国时，上海是春申君的封邑，故别称申。晋朝时，因渔民创造捕鱼工具“扈”，江流入海处称“渎”，因此松江下游一带称为“扈渎”，后又改“沪”，故上海简称“沪”。
+2019年，上海市生产总值（GDP）38155.32亿元，按可比价格计算，比上年增长6%。2019年12月15日，荣登中国社会科学院年度中国城市品牌前10强</span>
+		</div>
+		<div class="lineshow">
+			<div class="continer">
+				<h1>选择我们——回馈给你最流连故事</h1>
+				<div class="firstpicture" onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页1.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>是著名的江南古典小镇</p>
+							<p>闻名中外的名胜古迹和游览胜地</p>
+							<p>为全国重点文物保护单位</p>
+							<p>是明代的一座小镇，始建于嘉靖、万历年间</p>
+							<p>距今已有四百余年历史</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">姚桥小镇</p>
+						<p class="p2">票价：30元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页2.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>古镇七宝，已然成为继周庄、西塘、朱家角之后</p>
+							<p>上海人出行水乡的又一选择</p>
+							<p>优越的地理位置上，低廉的花销</p>
+							<p>更使七宝知名度渐升</p>
+							<p>趁着热门，外加早已扬名在外的七宝美食街。</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">七宝古镇</p>
+						<p class="p2">票价：40元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页3.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>百余年来一直作为上海的象征出现在世人面前</p>
+							<p>她位于外白渡桥至南浦大桥的黄浦江西岸</p>
+							<p>是九十年代上海十大新景观和十佳旅游景点之一</p>
+
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">上海外滩</p>
+					<p class="p2">票价：10元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页4.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>仅次于多伦多电视塔和莫斯科电视塔</p>
+							<p>选用了东方民族喜爱的圆曲线体作为基本建筑线条</p>
+							<p>电视塔的灯光效果也令人叹为观止</p>
+							<p>上海景色尽收眼底</p>
+							<p>巧妙的组合成一幅二龙戏珠的巨幅画面</p>
+
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">东方明珠</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页5.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>淀山湖一年四季风景各异</p>
+							<p>春季时鲜花盛开，绿草如茵</p>
+							<p>秋天的时候，慢慢变黄的树叶和湖中的芦苇荡</p>
+							<p>号称东方的贝加尔湖</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">定山湖</p>
+						<p class="p2">票价：5元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页6.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>在夕阳下金带宛如一幕幕丰富多采的动感电影</p>
+							<p>这里的景观只有你想不到，没有自然做不到的</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">静谧步行街</p>
+					<p class="p2">票价：0元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页7.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>街道两旁的民居重脊高檐</p>
+							<p>过街楼，河埠头，长廊</p>
+							<p>幽弄和深宅使古镇呈现古朴，恬和、幽静的风貌</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">廿堂故园</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页8.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>向为著名江南古刹</p>
+							<p>据碑志，建于三国吴大帝孙权赤乌十年</p>
+							<p>创始人为康僧会</p>
+							<p>寺址原在吴淞江(今苏州河)北岸，初名沪渎重元寺</p>
+							<p>唐代一度改名永泰禅院</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">静安寺</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/上海页9.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>汇集世界各地动物和珍稀动物二百余种</p>
+							<p>数量上万，其中更包括有来自国外的</p>
+							<p>长颈鹿、斑马、羚羊、白犀牛等</p>
+							<p>以及大熊猫、金丝猴、金毛羚牛等</p>
+							<p>找不到答案的时候，就去看一看这个世界✈</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">安然自然保护区</p>
+					<p class="p2">票价：33元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="foot">
+			<div class="continer">
+				<div class="footer">
+					<dl>
+						<dt>我们的媒体</dt>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚期刊</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚指南</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚广告</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚记者站</a></dd>
+					</dl>
+					<dl>
+						<dt>发现更多</dt>
+						<dd><a href="http://www.zuel.edu.cn/">要闻</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">政策</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">引擎</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">提示</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="http://www.zuel.edu.cn/">隐私与安全</a></dt>
+						<dd><a href="http://www.zuel.edu.cn/">安全证书</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">隐私保护协议</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">消费者保护协会</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">权益申诉</a></dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd><a href="http://www.zuel.edu.cn/">QQ</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微信</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微博</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">哔哩哔哩</a></dd>
+					</dl>
+				</div>
+				<p>20182113029-邵思源-信安1801</p>
+				<p>京ICP备88888888号 自嘲性网站备案信息公安备案号 66666666666京网文〔2020〕8888-666号</p>
+			</div>
+		</div>
+
+		<div class="moveword">
+			<span>欢</span>
+			<span>迎</span>
+			<span>光</span>
+			<span>临</span>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script>
+			function showtime(){
+				var date=new Date();
+				document.getElementById('date').innerText=date.toLocaleString();
+			}
+			function show(){
+				setInterval("showtime()",1000);
+			}
+
+		</script>
+		<script src="./js/vue.js"></script>
+		<script>
+	    //自定义组件
+		    Vue.component('custorm-select',{
+		        data:function () {
+		            return{
+		                selectShow:false,
+		                val:''
+		            }
+		        },
+		        props:['btnValue','list'],
+		        template:'<section class="warp">'+
+		            '<div class="searchIpt clearFix">'+
+		                    '<input type="text" class="keyWord" :value="val" @click="selectShow=!selectShow"/>'+
+		                    '<input type="button" :value="btnValue">'+
+		                    '<span></span>'+
+		                 '</div>'+
+		                 '<custorm-list v-show="selectShow" :list="list" v-on:receive="changeValueHandle"></custorm-list>'+
+		            '</div>'+
+		         '</section>',
+		        methods:{
+		            changeValueHandle:function (value) {
+		                this.val=value;
+		            }
+		        }
+		    }),
+		        Vue.component('custorm-list',{
+		            props:["list"],
+		            template:'<ul class="list">'+
+		                '<li v-for="item in list" @click="selectValueHandle(item)">{{item}}</li>'+
+		            '</ul>',
+		            methods:{
+		                selectValueHandle:function (item){
+		                    this.$emit('receive',item);
+		                }
+		            }
+		        })
+		    new Vue({
+		        el:'.continer',
+		        data:{
+		            list1:["迪士尼乐园","城隍庙景区","东方明珠","上海市野生动物园","上海市外滩景地"]
+		        }
+		    })
+	</script>
+		<script>
+		$(function(){
+			$("body").click(function(e){
+				// 创建div父元素
+				var parentDiv = $("<div></div>");
+				// 设置属性
+				parentDiv.css({
+					"width":"20px",
+					"height":"20px",
+					"position":"absolute",
+					"z-index":"10000"
+				});
+				// 创建一个div容器元素
+				var conDiv = $("<div></div>");
+				conDiv.css({
+					"width":"100%",
+					"height":"100%",
+					"position":"relative"
+				});
+				// 将容器元素添加到父元素中
+				parentDiv.append(conDiv);
+				// 创建子元素
+				var childDiv = conDiv.append("<div></div><div></div><div></div>");
+				var divs = conDiv.children();
+				// 设置颜色随机
+				var color = "rgb("+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)+")";
+				// 设置子元素属性
+				$(divs[0]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%"
+				});
+				$(divs[1]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%",
+					"position":"absolute",
+					"top":"0",
+					"right":"0"
+				});
+				$(divs[2]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"position":"absolute",
+					"top":"20%",
+					"left":"20%",
+					"transform":"rotate(45deg)",
+					"-ms-transform":"rotate(45deg)",
+					"-webkit-transform":"rotate(45deg)"
+				});
+				// 通过事件对象获取鼠标坐标
+				var x = e.pageX;
+				var y = e.pageY;
+				// 修改div父元素位置
+				parentDiv.css({"left":x+"px","top":y+"px"});
+				// 添加到body中
+				$("body").append(parentDiv);
+				// 2秒后消失
+				parentDiv.animate({
+					"width":"25px",
+					"height":"25px",
+					"top":(y-200)+"px",
+					"opacity":0
+				},2000,function(){
+					parentDiv.remove();
+				});
+			});
+		});
+	</script>
+		<script type="text/javascript" src="js/swiper_2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>南京精选</title>
+		<link rel="stylesheet" href="css/一般页.css">
+		<link rel="stylesheet" href="css/手风琴式轮播.css" />
+		<link rel="stylesheet" href="css/仿select搜索框.css">
+		<link rel="stylesheet" href="css/页面滚动字.css" />
+	</head>
+	<body onload="show()">
+		<div class="toolbar">
+			<a href="#" class="toolbar-item toolbar-item-weixin">
+				<span class="toolbar-layer"></span>
+			</a>
+			<a href="#" class="toolbar-item toolbar-item-feedback"></a>
+			<a href="#" class="toolbar-item toolbar-item-app">
+				<span class="toolbar-layer"></span>
+			</a>
+		</div>
+		<div class="header">
+				<ul>
+					<li><a href="首页.html">首页</a></li>
+					<li><a href="上海首页.html">上海精选</a></li>
+					<li><a href="深圳首页.html">深圳精选</a></li>
+					<li><a href="南京首页.html">南京精选</a></li>
+					<li><a href="广州首页.html">广州精选</a></li>
+					<li><a href="武汉首页.html">武汉精选</a></li>
+					<li><a href="成都首页.html">成都精选</a></li>	
+					<li><a href="其他首页.html">其他精选</a></li>	
+					<li><a href="公司简介.html">关于我们</a></li>
+				</ul>
+				<div class="toplogo">
+					<img src="img/德玛西亚logo.png" />
+				</div>			
+		</div>
+		<div class="headtit1">
+			<button>
+				<div id='date'></div>
+			</button>
+			<div class="headtit2"style="position: absolute;left: 50%;transform: translateX(-50%);font-weight: bold;color: #555">
+				<p style="text-align: center;">中国&南京</p>
+				<p>China&NanJing</p>
+			</div>
+			<div class="continer">
+				<div class="search">
+        		<custorm-select btn-value="搜索更多精选" v-bind:list="list1"></custorm-select>
+	    		</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="pic1 pic">
+				<div class="pic_num1 pic_num">
+				</div>
+				<p>生活不能少了欢乐</p>
+			</div>
+			<div class="pic2 pic">
+				<div class="pic_num2 pic_num"></div>
+			<p>没有欢乐就如同白粥</p>
+			</div>
+				
+			<div class="pic3 pic">
+				<div class="pic_num3 pic_num"></div>
+			<p>平淡无奇无波无浪</p>
+			</div>
+				
+			<div class="pic4 pic">
+				<div class="pic_num4 pic_num"></div>
+			<p>吃了旅行这颗糖吧</p>
+			</div>
+				
+			<div class="pic5 pic">
+				<div class="pic_num5 pic_num"></div>
+			<p>久甜不腻流连忘返</p>
+			</div>
+			
+			<div class="pic6 pic">
+				<div class="pic_num6 pic_num"></div>
+				<p>奔跑吧，能走多远就走多远</p>
+			</div>
+			
+		</div>
+
+		<div class="introduce" style="width: 1100px;margin: 30px auto;">
+			<span style="word-wrap: break-word;font-size: 18px;line-height: 30px;margin-top: 30px;">
+				南京市：南京，简称“宁”，古称金陵、建康，是江苏省会、副省级市、特大城市、南京都市圈核心城市，国务院批复确定的中国东部地区重要的中心城市、全国重要的科研教育基地和综合交通枢纽 。截至2019年，全市下辖11个区，总面积6587平方千米，建成区面积817平方千米 。2019年，常住人口850.0万人，城镇人口707.2万人，城镇化率83.2%。  
+南京地处中国东部、长江下游、濒江近海，是中国东部战区司令部驻地 ，地理坐标为北纬31°14″至32°37″，东经118°22″至119°14″，是长三角辐射带动中西部地区发展的重要门户城市 ，也是东部沿海经济带与长江经济带战略交汇的重要节点城市。
+南京属宁镇扬丘陵地区，以低山缓岗为主，属北亚热带湿润气候，水域面积达11%以上，是首批国家历史文化名城 ，中华文明的重要发祥地 南京早在100-120万年前就有古人类活动，35-60万年前已有南京猿人在汤山生活。2019年，南京地区生产总值14030.15亿元，人均地区生产总值152886元。
+南京是国家重要的科教中心，自古以来就是一座崇文重教的城市，有“天下文枢”、“东南第一学”之称，明清中国一半以上的状元均出自南京江南贡院</span>
+		</div>
+		<div class="lineshow">
+			<div class="continer">
+				<h1>选择我们——回馈给你最流连故事</h1>
+				<div class="firstpicture" onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页7.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>总统府是国民政府中央所在地</p>
+							<p>也见证着太平天国与两江总督衙门的兴衰</p>
+							<p>堪称现代化的“资本主义遗址”</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">总统府</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页1.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>庙市和夜景合二为一</p>
+							<p>这里始终是南京最繁华的地方之一</p>
+							<p>美称"十里珠帘"</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">南京夫子庙</p>
+						<p class="p2">票价：20元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页2.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>江南最大的城内公园，</p>
+							<p>融苏州园林山水、菱洲风光为一体</p>
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">玄武公园</p>
+					<p class="p2">票价：30元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页4.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>三面环山，北临长江，山有三峰。</p>
+							<p>栖霞山风景迷人，名胜古迹遍布诸峰</p>
+							<p>被誉为“金陵第一名秀山”</p>
+							<p>尤其是深秋的栖霞，枫林漫山红遍</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">栖霞山</p>
+						<p class="p2">票价：100元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页6.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>是一个集观光、休闲、娱乐等于一体的旅游综合体</p>
+							<p>更是亚洲最大的室内主题乐园</p>
+							<p>堪称豪华进阶版娱乐设施</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">南京龙之谷</p>
+						<p class="p2">票价：300元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页8.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>又名东郊风景区</p>
+							<p>南京人更喜欢将钟山称为紫金山</p>
+							<p>蜿蜒起伏宛如游龙，山水齐收</p>
+							<p>山、水、城、林融为一体</p>
+							<p>囊六朝、明代、民国、佛教等文化于一山</p>
+							
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">钟山风景区</p>
+					<p class="p2">票价：30元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="lineshow">
+			<div class="continer">
+				<div class="firstpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页9.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>瞻园是南京现存历史最久的一座园林</p>
+							<p>始建于明嘉靖年间</p>
+							<p>布局典雅精致，有宏伟壮观的明清古建筑群</p>
+							<p>北宋太湖石和清幽素雅的楼榭亭台也位于此</p>
+							<p>王府中至今珍存着镇宅之宝“虎字碑”。</p>
+							
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">瞻园</p>
+						<p class="p2">票价：40元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页t1.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>不老村地处老山国家森林公园南麓</p>
+							<p>与宁滁快速道相连</p>
+							<p>是南京市着力打造的美丽乡村八颗“珍珠”之一</p>
+							<p>身心俱疲的时候，就去感一感这丝天工✈</p>
+						</span>
+					</div>
+					<div class="tips">
+						<p class="p1">不老村</p>
+						<p class="p2">票价：0元/人</p>
+						<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+					</div>
+				</div>
+				<div class="afterpicture"  onclick="window.open('下单子页.html')">
+					<div class="imgbox">
+						<img src="img/南京页t5.jpg">
+					</div>
+					<div class="text-under">
+						<span>
+							<p>南京阅江楼与黄鹤楼、岳阳楼、</p>
+							<p>滕王阁合称江南四大名楼
+							<p>具有鲜明的明代风格和古典的皇家气派</p>
+							<p>阅江楼最大的特色在于先有记后有楼</p>
+							<p>是现在人根据明太祖朱元璋《阅江楼记》而建</p>
+
+						</span>
+				</div>
+				<div class="tips">
+					<p class="p1">阅江楼</p>
+					<p class="p2">票价：20元/人</p>
+					<p class="p3">订票电话：123-888888(点击即刻下单)</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="foot">
+			<div class="continer">
+				<div class="footer">
+					<dl>
+						<dt>我们的媒体</dt>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚期刊</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚指南</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚广告</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">德玛西亚记者站</a></dd>
+					</dl>
+					<dl>
+						<dt>发现更多</dt>
+						<dd><a href="http://www.zuel.edu.cn/">要闻</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">政策</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">引擎</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">提示</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="http://www.zuel.edu.cn/">隐私与安全</a></dt>
+						<dd><a href="http://www.zuel.edu.cn/">安全证书</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">隐私保护协议</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">消费者保护协会</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">权益申诉</a></dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd><a href="http://www.zuel.edu.cn/">QQ</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微信</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">微博</a></dd>
+						<dd><a href="http://www.zuel.edu.cn/">哔哩哔哩</a></dd>
+					</dl>
+				</div>
+				<p>20182113029-邵思源-信安1801</p>
+				<p>京ICP备88888888号 自嘲性网站备案信息公安备案号 66666666666京网文〔2020〕8888-666号</p>
+			</div>
+		</div>
+
+		<div class="moveword">
+			<span>欢</span>
+			<span>迎</span>
+			<span>光</span>
+			<span>临</span>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script>
+			function showtime(){
+				var date=new Date();
+				document.getElementById('date').innerText=date.toLocaleString();
+			}
+			function show(){
+				setInterval("showtime()",1000);
+			}
+
+		</script>
+		<script src="./js/vue.js"></script>
+		<script>
+	    //自定义组件
+		    Vue.component('custorm-select',{
+		        data:function () {
+		            return{
+		                selectShow:false,
+		                val:''
+		            }
+		        },
+		        props:['btnValue','list'],
+		        template:'<section class="warp">'+
+		            '<div class="searchIpt clearFix">'+
+		                    '<input type="text" class="keyWord" :value="val" @click="selectShow=!selectShow"/>'+
+		                    '<input type="button" :value="btnValue">'+
+		                    '<span></span>'+
+		                 '</div>'+
+		                 '<custorm-list v-show="selectShow" :list="list" v-on:receive="changeValueHandle"></custorm-list>'+
+		            '</div>'+
+		         '</section>',
+		        methods:{
+		            changeValueHandle:function (value) {
+		                this.val=value;
+		            }
+		        }
+		    }),
+		        Vue.component('custorm-list',{
+		            props:["list"],
+		            template:'<ul class="list">'+
+		                '<li v-for="item in list" @click="selectValueHandle(item)">{{item}}</li>'+
+		            '</ul>',
+		            methods:{
+		                selectValueHandle:function (item){
+		                    this.$emit('receive',item);
+		                }
+		            }
+		        })
+		    new Vue({
+		        el:'.continer',
+		        data:{
+		            list1:["迪士尼乐园","城隍庙景区","东方明珠","上海市野生动物园","上海市外滩景地"]
+		        }
+		    })
+	</script>
+		<script>
+		$(function(){
+			$("body").click(function(e){
+				// 创建div父元素
+				var parentDiv = $("<div></div>");
+				// 设置属性
+				parentDiv.css({
+					"width":"20px",
+					"height":"20px",
+					"position":"absolute",
+					"z-index":"10000"
+				});
+				// 创建一个div容器元素
+				var conDiv = $("<div></div>");
+				conDiv.css({
+					"width":"100%",
+					"height":"100%",
+					"position":"relative"
+				});
+				// 将容器元素添加到父元素中
+				parentDiv.append(conDiv);
+				// 创建子元素
+				var childDiv = conDiv.append("<div></div><div></div><div></div>");
+				var divs = conDiv.children();
+				// 设置颜色随机
+				var color = "rgb("+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)
+							+","+parseInt(Math.random()*250+5)+")";
+				// 设置子元素属性
+				$(divs[0]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%"
+				});
+				$(divs[1]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"border-radius":"100%",
+					"position":"absolute",
+					"top":"0",
+					"right":"0"
+				});
+				$(divs[2]).css({
+					"width":"60%",
+					"height":"60%",
+					"background-color":color,
+					"position":"absolute",
+					"top":"20%",
+					"left":"20%",
+					"transform":"rotate(45deg)",
+					"-ms-transform":"rotate(45deg)",
+					"-webkit-transform":"rotate(45deg)"
+				});
+				// 通过事件对象获取鼠标坐标
+				var x = e.pageX;
+				var y = e.pageY;
+				// 修改div父元素位置
+				parentDiv.css({"left":x+"px","top":y+"px"});
+				// 添加到body中
+				$("body").append(parentDiv);
+				// 2秒后消失
+				parentDiv.animate({
+					"width":"25px",
+					"height":"25px",
+					"top":(y-200)+"px",
+					"opacity":0
+				},2000,function(){
+					parentDiv.remove();
+				});
+			});
+		});
+	</script>
+		<script type="text/javascript" src="js/swiper_2.js"></script>
+	</body>
+</html>
